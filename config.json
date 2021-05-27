@@ -1,24 +1,120 @@
 {
-    "mongodb_uri": "mongodb://127.0.0.1:27017/shopify",
+    "mongodb_uri": "mongodb+srv://admin2:admin12345@cluster0.v7h3a.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     "webhook_url": [
-        "DISCORD_WEBHOOK_URL"
+        "https://discord.com/api/webhooks/847384942837104650/cYkC84pl7xyuEkpxpm5aGowM47CuvoU8SQ3akLXteMmgvakSjFsf1b__UUOBcHQOihvZ"
     ],
     "discord_message_settings": {
-        "botImage": "https://cdn.discordapp.com/embed/avatars/0.png",
-        "botName": "Shopify monitor",
-        "footerDescription": "",
-        "footerImage": "",
+        "botImage": "https://cdn.discordapp.com/attachments/833003433413312523/843902931455049778/logo_triangle_society-01_3.jpg",
+        "botName": "Shopify Filtered",
+        "footerDescription": "Triangle Society",
+        "footerImage": "https://cdn.discordapp.com/attachments/833003433413312523/843902931455049778/logo_triangle_society-01_3.jpg",
         "timeOfNotification": true
     },
-    "requestTiming": 30000,
+    "requestTiming": 10000,
     "__KEYWORDS_EXPLAINED" : "In this default example that I've created the monitor will notify you if find a Nike product in hanon or sensinko site, and it'll notify if find a New Balance or Adidas Yeezy product only in hanon site",
-    "keywords": [["Nike"]],
+    "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ"]],
     "sites": [
         {
-            "url": "hanon-shop.com",
-            "keywords": [["New Balance"],["Adidas","Yeezy" ]]
+            "url": "www.abovethecloudsstore.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
         },
-        { "url": "sesinko.com" }
+        
+        {
+            "url": "en.afew-store.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+        
+        {
+            "url": "shopnicekicks.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+        
+        {
+            "url": "bdgastore.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ"]]
+        },
+
+        {
+            "url": "www.bbbranded.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+
+{
+            "url": "nohble.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+
+{
+            "url": "www.a-ma-maniere.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+
+{
+            "url": "www.socialstatuspgh.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+
+{
+            "url": "bouncewear.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+
+{
+            "url": "row.oneblockdown.it",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+
+{
+            "url": " www.jimmyjazz.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+
+{
+            "url": "eu.kith.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+        
+{
+            "url": "thenextdoor.fr",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+{
+            "url": "circleshop.fr",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+{
+            "url": "www.topsandbottomsusa.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+{
+            "url": "www.highsandlows.net.au",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+{
+            "url": "1991skateshop.com.au",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+{
+            "url": "dtlr.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+{
+            "url": "kith.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+{
+            "url": "shoepalace.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+{
+            "url": "undefeated.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
+       
+        {
+            "url": "shop-us.doverstreetmarket.com",
+            "keywords": [["Jordan"],["Adidas","Yeezy" ],["AJ 1"]]
+        },
     ],
     "proxiesList": [ ]
 }
