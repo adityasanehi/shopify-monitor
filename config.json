@@ -1,8 +1,7 @@
 {
-    "mongodb_uri": "mongodb+srv://admin2:admin12345@cluster0.v7h3a.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "mongodb_uri": "",
     "webhook_url": [
-        "https://discord.com/api/webhooks/847384942837104650/cYkC84pl7xyuEkpxpm5aGowM47CuvoU8SQ3akLXteMmgvakSjFsf1b__UUOBcHQOihvZ"
-    ],
+        "
     "discord_message_settings": {
         "botImage": "https://cdn.discordapp.com/attachments/833003433413312523/843902931455049778/logo_triangle_society-01_3.jpg",
         "botName": "Shopify Filtered",
